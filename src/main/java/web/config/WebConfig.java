@@ -50,8 +50,5 @@ public class WebConfig implements WebMvcConfigurer {
         resolver.setTemplateEngine(templateEngine());
         registry.viewResolver(resolver);
     }
-    @Bean
-    public CarService carService(){
-        return new CarService();
-    }
+
 }
